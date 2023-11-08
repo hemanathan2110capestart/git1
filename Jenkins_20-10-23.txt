@@ -1,0 +1,17 @@
+Jenkins - 20/10/23
+
+-open source
+
+-local host
+-/var/jenkins_home
+
+-new/pipeline /configure /
+
+build -> docker 
+approve-> waiting for approve -5minutes
+deploy ->docker image to tar -> move to server -> delete previous files
+
+Autoscaling
+
+
+

@@ -1,0 +1,30 @@
+Ip class
+0-127   class A
+128-191 class B
+192-223 class C -> commercial
+224-239 class D
+240-225 class E
+
+
+ipv4 --4 byte each --4.3billion
+ipv6 --128 bit each --340 undecillion possible address ---1 followed by 36 zeros
+
+port 
+2^32 ==> 0-65535
+0-1023 reserved
+-Inbound 
+-Outbound
+
+firewall
+
+DNS
+-Domain Name system
+
+CIDR
+2^(32-N)
+
+
+
+
+
+

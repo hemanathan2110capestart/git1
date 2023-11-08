@@ -1,0 +1,49 @@
+ssh --ssh user_name@host(IP/Domain_name)
+apt update 
+apt install openssh-server
+systemctl status ssh
+ufw allow ssh 
+ssh user@ip
+
+SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, 
+a secure way to access a computer over an unsecured network.
+_______________
+grep
+
+grep and sample.txt
+grep -i and sample.txt -> not casesensitive
+grep -ic and sample.txt -> count of the word  start with 0
+grep -l and sample.txt -> it will check the word is available inside the file or not
+grep -o and sample.txt ->it will disaplay praticular word 
+grep -io and sample.txt ->it will disaplay praticular word without casesensitive
+grep -n and sample.txt ->it will display the line number
+grep -in and sample.txt ->it will display the line number
+grep -v and sample.txt -> ignore that particular word in line 
+grep -iv and sample.txt -> ignore that particular word in line and without casesensitive
+grep -i ^and sample.txt ->find the word start in sentence 
+grep -i and$ sample.txt ->find the last word in the sentence 
+grep -A3 and sample.txt -> display after 3 lines from the word
+
+_________________
+
+zip/unzip
+zip -r file.zip file
+unzip file.zip
+
+_________________
+wc filename 
+line words letters filename
+___________________________
+
+mkdir 
+mkdir{d1,d2,d3,d4}
+mkdir -p /a4/a41/a42/a43/a44
+_____________
+telnet
+
+__________________
+volume 
+log
+
+
+ctrl+alt+t --> to open terminal

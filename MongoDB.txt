@@ -1,0 +1,85 @@
+MongoDB
+
+show dbs -show databases
+
+show collections 
+
+db.dropDatabase()
+
+cls - clear
+
+use Db 
+
+db.users.insertOne({name : "hemanathan" })
+
+db.users.insertMany([])
+
+db.users.find()
+
+db.users.find({},{_id:0})
+
+db.users.find().limit()
+
+db.users.find().limit({}).sort({})
+
+db.users.find().skip()
+
+db.user.find({name:"hems"},{name:1,age:1})
+
+_______________________
+ 
+db.users.find({:{$eq:}})
+db.users.find({:{$ne:}})
+db.users.find({:{$gte:}})
+db.users.find({:{$gt:}})
+db.users.find({:{$lte:}})
+db.users.find({:{$lt:}})
+
+db.users.find({age:{$gt: ,$lt: }})
+
+db.users.find({name:{$in:["",""]}})
+db.users.find({name:{$nin:["",""]}})
+
+db.users.find({name:{$exists: true}})
+db.users.find({name:{$exists: false}})
+
+db.users.find({$and: [{age:29},{name:"hems"}]})
+db.users.find({$or: [{age:29},{name:"dave"}]})
+
+db.users.countDocuments({})
+
+db.users.updateOne({_id},{$set :{}})
+
+db.users.updateOne({_id},{$inc :{}})
+
+db.users.updateOne({_id},{$rename :{vfev:"__"}})
+
+db.users.updateOne({_id},{$push :{hobbies:"__"}})
+
+db.users.updateOne({_id},{$pull :{hobbies:"__"}})
+
+db.users.updateOne({-id},{$unset:{age:""}})
+
+db.users.updateMany({address :{$exists: true}},{unset:{address:""}})
+
+db.users.deleteOne({debt:2000})
+db.users.deleteMany({age :{$exists: false}})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
